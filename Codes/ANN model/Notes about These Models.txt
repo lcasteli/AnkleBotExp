@@ -1,0 +1,18 @@
+Here are some notes about those ANN models:
+
+1. Those models include models in both DP and IE directions (See the file names), based on data from 0.7 to 8 Hz.
+
+2. Each model file includes 6 files:
+a. net -- ANN models
+b. info -- information about models, like regression.
+c. output -- output from the model according to input to train the model.
+d. error -- errors between the results of model and targets (data from experiments).
+e. input -- input to the model
+f. target -- target to the model (data from experiments) 
+
+3. The model may predict both magnitude and phase of impedance.
+
+Let me know if you have further questions.
+
+
+-- Chen
